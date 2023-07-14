@@ -2,8 +2,9 @@
   "name": "untitled3",
   "version": "0.1.0",
   "private": true,
-        "node" : ">=14.0.0 <16.0.0",
-  "scripts": {
+  "engines": {
+    "node": "14.21.2",
+  },  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

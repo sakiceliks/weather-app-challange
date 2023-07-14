@@ -125,7 +125,7 @@ export default function Home() {
   const date = new Date();
 
   return (
-    <div className="w-full h-screen mainc bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center px-4 lg:px-0">
+    <div className="w-full h-screen bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center px-4 lg:px-0">
       {errorMsg && (
         <div className="w-full max-w-[90vw] lg:max-w-[450px] text-center bg-[#ff208c] text-white absolute top-2 lg:top-10 p-4 capitalize rounded-md">{`${errorMsg.response.data.message}`}</div>
       )}
@@ -134,12 +134,11 @@ export default function Home() {
           animate ? "animate-shake" : "animate-none"
         } h-16 bg-black/30 w-full max-w-md rounded-full backdrop-blur-[32px] mb-8`}
       >
-        <div className="form-control h-full relative flex items-center justify-between p-2">
+        <div className="form-control w-screen h-full relative flex items-center justify-between p-2">
           <div className="input-group flex-1">
             <input
               type="text"
               onChange={(e) => handleInput(e)}
-              border-0
               placeholder="Enter your city…"
               className="input
                              focus:outline-0

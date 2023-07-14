@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainc{
+    background-image: url("../../src/assets/img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}

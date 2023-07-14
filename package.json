@@ -2,9 +2,7 @@
   "name": "untitled3",
   "version": "0.1.0",
   "private": true,
-    "engines": {
-    "node": "16.00",
-  },
+        "node" : ">=14.0.0 <16.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

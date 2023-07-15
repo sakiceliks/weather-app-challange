@@ -134,7 +134,7 @@ export default function Home() {
           animate ? "animate-shake" : "animate-none"
         } h-16 bg-black/30 w-full max-w-md rounded-full backdrop-blur-[32px] mb-8`}
       >
-        <div className="form-control w-screen h-full relative flex items-center justify-between p-2">
+        <div className="form-control w-full h-full relative flex items-center justify-between p-2">
           <div className="input-group flex-1">
             <input
               type="text"
